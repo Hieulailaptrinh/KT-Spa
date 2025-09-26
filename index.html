@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>KTSpa - Chăm sóc da & thư giãn chuyên sâu</title>
+    <link rel="icon" href="./assets/img/f1.png" type="image/jpg" />
+    <link rel="shortcut icon" href="./assets/img/f1.png" type="image/jpg" />
+
+    <meta
+      name="description"
+      content="KTSpa - Dịch vụ trị mụn, dưỡng trắng, massage và chăm sóc body chuyên nghiệp. Đặt lịch online, tư vấn 24/7."
+    />
+    <meta
+      name="keywords"
+      content="spa, chăm sóc da, trị mụn, dưỡng trắng, massage, đặt lịch online"
+    />
+    <link rel="icon" href="./assets/img/logo2.jpg" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="KTSpa - Chăm sóc da & thư giãn" />
+    <meta
+      property="og:description"
+      content="Dịch vụ trị mụn, dưỡng trắng, massage, đặt lịch online và ưu đãi 20% cho khách hàng mới."
+    />
+    <meta property="og:image" content="./assets/img/banner.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Basic structured data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "KTSpa",
+        "image": "./assets/img/logo2.jpg",
+        "telephone": "+84-012-345-6789",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Đường Spa, Quận 1",
+          "addressLocality": "Hồ Chí Minh",
+          "addressCountry": "VN"
+        },
+        "priceRange": "$$",
+        "url": "https://your-spa-site.example"
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <div class="logo">
+          <img src="./assets/img/logoreal.jpg" alt="KTSpa" />
+          <div>
+            <strong>KTSpa</strong>
+            <div style="font-size: 12px; color: var(--muted)">
+              Spa & chăm sóc da
+            </div>
+          </div>
+        </div>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#services">Dịch vụ</a>
+          <a href="#booking">Đặt lịch</a>
+          <a href="#testimonials">Feedback</a>
+          <a href="#contact">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" id="home">
+      <!-- Hero / Banner -->
+      <section class="hero" aria-label="Banner chính">
+        <div class="left">
+          <h1 class="slogan">Thư giãn • Sạch sâu • Tái tạo da</h1>
+          <p class="sub">
+            KTSpa mang đến liệu trình cá nhân hóa, trị mụn chuyên sâu, dưỡng
+            trắng an toàn và massage thư giãn — kết quả thấy rõ sau 1-3 buổi.
+          </p>
+          <a class="cta" href="#booking" id="bookNow">Đặt lịch ngay</a>
+          <div style="margin-top: 14px; color: var(--muted)">
+            Ưu đãi: <strong>Giảm 20% cho khách hàng mới</strong>
+          </div>
+        </div>
+        <div class="right" role="img" aria-label="Hình ảnh spa"></div>
+      </section>
+
+      <!-- Short intro -->
+      <section id="about" aria-label="Giới thiệu ngắn">
+        <div class="grid">
+          <div class="card">
+            <h2>Giới thiệu ngắn gọn</h2>
+            <p>
+              KTSpa thành lập năm 2018 với sứ mệnh chăm sóc da an toàn, hiệu
+              quả. Chúng tôi kết hợp công nghệ hiện đại và liệu pháp thiên nhiên
+              để mang lại làn da khỏe khoắn cho khách hàng.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services">
+        <h2>Các dịch vụ nổi bật</h2>
+        <div class="services-grid grid">
+          <div class="card">
+            <img
+              class="service-img"
+              src="./assets/img/pic5.jpg"
+              alt="Trị mụn"
+            />
+            <h3>Trị mụn chuyên sâu</h3>
+            <p>
+              Liệu trình hút bã, tẩy da chết nhẹ nhàng, chiếu ánh sáng LED và
+              đắp mặt nạ phục hồi.
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              class="service-img"
+              src="./assets/img/pic1.jpg"
+              alt="Dưỡng trắng"
+            />
+            <h3>Dưỡng trắng & sáng da</h3>
+            <p>
+              Peel nhẹ, tinh chất giúp sáng đều màu, giảm thâm và phục hồi độ
+              ẩm.
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              class="service-img"
+              src="./assets/img/pic2.jpg"
+              alt="Massage"
+            />
+            <h3>Massage thư giãn</h3>
+            <p>
+              Liệu pháp massge cổ vai, toàn thân giúp thư giãn và cải thiện tuần
+              hoàn.
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              class="service-img"
+              src="./assets/img/pic3.jpg"
+              alt="Chăm sóc body"
+            />
+            <h3>Chăm sóc body & detox</h3>
+            <p>
+              Tẩy tế bào chết, ủ thảo dược và liệu trình giảm stress toàn thân.
+            </p>
+          </div>
+        </div>
+
+        <h3 style="margin-top: 22px">Bảng giá chi tiết</h3>
+        <div class="card">
+          <table aria-label="Bảng giá dịch vụ">
+            <thead>
+              <tr>
+                <th>Dịch vụ</th>
+                <th>Thời gian</th>
+                <th>Giá (VND)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Trị mụn chuyên sâu</td>
+                <td>60 - 90 phút</td>
+                <td>700,000</td>
+              </tr>
+              <tr>
+                <td>Dưỡng trắng chuyên sâu</td>
+                <td>60 phút</td>
+                <td>650,000</td>
+              </tr>
+              <tr>
+                <td>Massage thư giãn 60'</td>
+                <td>60 phút</td>
+                <td>450,000</td>
+              </tr>
+              <tr>
+                <td>Chăm sóc body</td>
+                <td>90 phút</td>
+                <td>950,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Booking -->
+      <section id="booking">
+        <h2>Đặt lịch</h2>
+        <div class="card booking">
+          <form id="bookingForm">
+            <label>Chọn dịch vụ</label>
+            <select id="service" required>
+              <option value="">-- Chọn --</option>
+              <option value="Trị mụn">Trị mụn chuyên sâu</option>
+              <option value="Dưỡng trắng">Dưỡng trắng</option>
+              <option value="Massage">Massage</option>
+              <option value="Body">Chăm sóc body</option>
+            </select>
+
+            <div class="form-row" style="margin-top: 12px">
+              <div class="col">
+                <label>Ngày</label>
+                <input type="date" id="date" required />
+              </div>
+              <div class="col">
+                <label>Giờ</label>
+                <input type="time" id="time" required />
+              </div>
+            </div>
+
+            <div style="margin-top: 12px">
+              <label>Thông tin khách hàng</label>
+              <input type="text" id="name" placeholder="Họ tên" required />
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Số điện thoại"
+                style="margin-top: 8px"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                placeholder="Email (để nhận xác nhận)"
+                style="margin-top: 8px"
+              />
+            </div>
+
+            <div
+              style="
+                margin-top: 12px;
+                display: flex;
+                gap: 12px;
+                align-items: center;
+              "
+            >
+              <button type="submit" class="primary">Xác nhận & Tạo lịch</button>
+              <button type="button" id="addToCalendar">
+                Thêm vào Google Calendar
+              </button>
+            </div>
+
+            <div
+              id="bookingResult"
+              style="margin-top: 12px; color: green; display: none"
+            ></div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials">
+        <h2>Feedback khách hàng</h2>
+        <div class="testimonials">
+          <div class="card testimonial">
+            <h4>Trung Hiếu - Khách hàng trị mụn</h4>
+            <img
+              src="./assets/img/skin.jpg"
+              alt="Trước"
+              style="
+                width: 100%;
+                height: 140px;
+                object-fit: cover;
+                border-radius: 6px;
+                margin-bottom: 8px;
+              "
+            />
+
+            <p style="color: var(--muted)">
+              "Da cải thiện rõ sau liệu trình, nhân viên tận tâm."
+            </p>
+          </div>
+
+          <div class="card testimonial">
+            <h4>Kim Thương - Khách hàng massage</h4>
+            <div
+              style="
+                aspect-ratio: 16/9;
+                background: #eee;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            ></div>
+            <p style="color: var(--muted)">
+              "Thư giãn tuyệt vời, rất đáng thử."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About / Team / Gallery -->
+      <section id="about-detailed">
+        <h2>Giới thiệu - Câu chuyện thương hiệu</h2>
+        <div
+          class="grid"
+          style="grid-template-columns: 1fr 360px; align-items: start"
+        >
+          <div>
+            <p>
+              KTSpa ra đời từ đam mê giúp mọi người tự tin hơn với làn da. Chúng
+              tôi tập trung vào liệu trình khoa học, an toàn và hiệu quả.
+            </p>
+
+            <h3>Đội ngũ chuyên viên</h3>
+            <div
+              class="card"
+              style="
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                margin-bottom: 8px;
+              "
+            >
+              <img
+                src="./assets/img/hieu.jpg"
+                alt="Chuyên viên 1"
+                style="
+                  height: 64px;
+                  width: 64px;
+                  border-radius: 8px;
+                  object-fit: cover;
+                "
+              />
+              <div>
+                <strong>Nguyễn Kim Hiếu</strong>
+                <div style="font-size: 13px; color: var(--muted)">
+                  Chuyên viên chăm sóc da chính — 6 năm kinh nghiệm
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="display: flex; gap: 12px; align-items: center"
+            >
+              <img
+                src="./assets/img/thuong.jpg"
+                alt="Chuyên viên 2"
+                style="
+                  height: 64px;
+                  width: 64px;
+                  border-radius: 8px;
+                  object-fit: cover;
+                "
+              />
+              <div>
+                <strong>Trung Thương</strong>
+                <div style="font-size: 13px; color: var(--muted)">
+                  Chuyên viên massage & trị liệu
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside>
+            <h3>Hình ảnh không gian spa</h3>
+            <div
+              style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px"
+            >
+              <img
+                src="./assets/img/s1.jpg"
+                alt="Không gian 1"
+                style="
+                  width: 100%;
+                  height: 86px;
+                  object-fit: cover;
+                  border-radius: 6px;
+                "
+              />
+              <img
+                src="./assets/img/s2.jpg"
+                alt="Không gian 2"
+                style="
+                  width: 100%;
+                  height: 86px;
+                  object-fit: cover;
+                  border-radius: 6px;
+                "
+              />
+              <img
+                src="./assets/img/s3.jpg"
+                alt="Không gian 3"
+                style="
+                  width: 100%;
+                  height: 86px;
+                  object-fit: cover;
+                  border-radius: 6px;
+                "
+              />
+              <img
+                src="./assets/img/s4.jpg"
+                alt="Không gian 4"
+                style="
+                  width: 100%;
+                  height: 86px;
+                  object-fit: cover;
+                  border-radius: 6px;
+                "
+              />
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section id="blog">
+        <h2>Blog - Kiến thức chăm sóc da</h2>
+        <div
+          class="grid"
+          style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))"
+        >
+          <article class="card">
+            <h4>5 bước giữ da sạch mụn</h4>
+            <p class="sub">
+              Hướng dẫn từ chuyên gia về tẩy tế bào chết, dưỡng ẩm và skincare
+              routine.
+            </p>
+            <a href="#">Đọc thêm →</a>
+          </article>
+
+          <article class="card">
+            <h4>Xu hướng trị mụn 2025</h4>
+            <p class="sub">
+              Cập nhật công nghệ điều trị, ánh sáng LED, peel an toàn.
+            </p>
+            <a href="#">Đọc thêm →</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Liên hệ</h2>
+        <div
+          class="grid"
+          style="
+            grid-template-columns: 1fr 360px;
+            gap: 18px;
+            align-items: start;
+          "
+        >
+          <div class="card">
+            <form id="contactForm">
+              <input type="text" id="cName" placeholder="Họ tên" required />
+              <input
+                type="email"
+                id="cEmail"
+                placeholder="Email"
+                style="margin-top: 8px"
+                required
+              />
+              <input
+                type="tel"
+                id="cPhone"
+                placeholder="Số điện thoại"
+                style="margin-top: 8px"
+              />
+              <textarea
+                id="cMessage"
+                placeholder="Nội dung"
+                style="margin-top: 8px"
+                rows="4"
+              ></textarea>
+              <button class="primary" style="margin-top: 8px">
+                Gửi liên hệ
+              </button>
+            </form>
+          </div>
+
+          <aside class="card">
+            <h4>Địa chỉ</h4>
+            <p>123 Đường Spa, Quận 1, TP. Hồ Chí Minh</p>
+            <p>Hotline: +84 37 334 1197</p>
+            <h4>Bản đồ</h4>
+            <!-- Replace src with your Google Maps iframe embed link -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!"
+              width="100%"
+              height="220"
+              style="border: 0; border-radius: 8px"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 12px;
+          flex-wrap: wrap;
+        "
+      >
+        <div>
+          <strong>KTSpa</strong>
+          <div style="font-size: 13px; color: var(--muted)">
+            © 2018 - 2025 KTSpa
+          </div>
+        </div>
+        <nav style="font-size: 13px; color: var(--muted)">Privacy • Terms</nav>
+      </div>
+    </footer>
+
+    <!-- Chat & Popup -->
+    <div class="chat-float">
+      <a
+        class="chat-btn"
+        href="https://m.me/yourpage"
+        target="_blank"
+        rel="noopener"
+        >Messenger</a
+      >
+      <a
+        class="chat-btn"
+        href="https://wa.me/84123456789"
+        target="_blank"
+        rel="noopener"
+        >WhatsApp</a
+      >
+      <a
+        class="chat-btn"
+        href="https://zalo.me/0123456789"
+        target="_blank"
+        rel="noopener"
+        >Zalo</a
+      >
+    </div>
+
+    <div id="couponPopup" class="popup">
+      <h3>Ưu đãi 20% cho khách mới</h3>
+      <p>
+        Nhập mã <strong>SERENE20</strong> khi đặt lịch để được giảm 20% cho lần
+        đầu.
+      </p>
+      <button id="closePopup" class="primary">Đóng</button>
+    </div>
+    <!--  -->
+    <script src="./main.js"></script>
+  </body>
+</html>

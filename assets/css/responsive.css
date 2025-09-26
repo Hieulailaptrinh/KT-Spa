@@ -1,0 +1,12 @@
+/* Responsive */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .nav a {
+    display: none;
+  }
+  .hero .right {
+    height: 220px;
+  }
+}
